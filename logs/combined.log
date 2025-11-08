@@ -1,0 +1,14 @@
+{"level":"info","message":"Hello from devops Aquisitions,","service":"devops-acquisitions-api"}
+{"level":"info","message":"::1 - - [08/Nov/2025:16:39:40 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"devops-acquisitions-api"}
+{"level":"info","message":"Hello from devops Aquisitions,","service":"devops-acquisitions-api"}
+{"level":"info","message":"::1 - - [08/Nov/2025:16:54:14 +0000] \"GET / HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"devops-acquisitions-api"}
+{"level":"info","message":"::1 - - [08/Nov/2025:16:54:20 +0000] \"GET /api HTTP/1.1\" 404 142 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"devops-acquisitions-api"}
+{"level":"info","message":"::1 - - [08/Nov/2025:16:54:50 +0000] \"GET /api HTTP/1.1\" 200 50 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36\"","service":"devops-acquisitions-api"}
+{"level":"info","message":"Hello from devops Aquisitions,","service":"devops-acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Nov/2025:16:55:31 +0000] \"GET / HTTP/1.1\" 200 29 \"-\" \"PostmanRuntime/7.49.0\"","service":"devops-acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Nov/2025:16:55:40 +0000] \"GET /api/auth HTTP/1.1\" 404 147 \"-\" \"PostmanRuntime/7.49.0\"","service":"devops-acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Nov/2025:16:56:08 +0000] \"POST /api/auth HTTP/1.1\" 404 148 \"-\" \"PostmanRuntime/7.49.0\"","service":"devops-acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Nov/2025:16:56:12 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 404 156 \"-\" \"PostmanRuntime/7.49.0\"","service":"devops-acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Nov/2025:16:56:43 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 404 156 \"-\" \"PostmanRuntime/7.49.0\"","service":"devops-acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Nov/2025:16:57:39 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.49.0\"","service":"devops-acquisitions-api"}
+{"level":"info","message":"::ffff:127.0.0.1 - - [08/Nov/2025:16:57:44 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 200 31 \"-\" \"PostmanRuntime/7.49.0\"","service":"devops-acquisitions-api"}
