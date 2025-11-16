@@ -4,34 +4,39 @@ npm install @neondatabase/serverless drizzle-orm
 
 npm install - D drizzle-kit
 
-# DB 
+# DB
+
 npm run db:generate
 npm run db:migrate
 
 # logger
+
 npm i winston
 
-
 # middleware
-    ### http headers
+
+### http headers
 npm i helmet
 
-    #### logs requetes http
-
+#### logs requetes http
 npm i morgan
 
-
 # CORS
-npm i cors cookie-pareser
 
+npm i cors cookie-pareser
 
 # JWT AUTH
 
 npm install jsonwebtoken
 
 # Validations
+
 npm i zod
 
 # encrypt password
 
 npm i bcrypt
+
+# security : api  :arcject
+
+npm i @arcjet/node @arcjet/inspect
