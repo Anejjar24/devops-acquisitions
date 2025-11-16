@@ -19,3 +19,19 @@ npm i helmet
     #### logs requetes http
 
 npm i morgan
+
+
+# CORS
+npm i cors cookie-pareser
+
+
+# JWT AUTH
+
+npm install jsonwebtoken
+
+# Validations
+npm i zod
+
+# encrypt password
+
+npm i bcrypt

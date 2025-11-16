@@ -1,11 +1,11 @@
 import express from 'express';
 import logger from '#config/logger.js';
-import helmet from "helmet";
+import helmet from 'helmet';
 import morgan from 'morgan';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import { timestamp } from 'drizzle-orm/gel-core';
-import authRoutes from '#routes/auth.routes.js'
+import authRoutes from '#routes/auth.routes.js';
 const app=express();
 app.use(helmet());
 app.use(cors());
@@ -15,7 +15,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(cookieParser());
 
 app.use(morgan('combined',{stream:{
-    write: (message)=>logger.info(message.trim())
+  write: (message)=>logger.info(message.trim())
 }}));
 
 app.get('/',(req,res)=>{
@@ -25,18 +25,18 @@ app.get('/',(req,res)=>{
 
 app.get('/health',()=>{
 
-    res.status(200).json({
-        status: 'OK',
-        timestamp: new Date().toISOString(),
-        uptime: process.uptime()
-    });
+  res.status(200).json({
+    status: 'OK',
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime()
+  });
 });
 
 app.get('/api',(req,res)=>{
 
- res.status(200).json({
+  res.status(200).json({
     message: ' Devops Aquisition API is Running !!'
- });
+  });
 });
 
 app.use('/api/auth',authRoutes);

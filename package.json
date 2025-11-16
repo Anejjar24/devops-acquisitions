@@ -29,6 +29,7 @@
   "dependencies": {
     "-": "^0.0.1",
     "@neondatabase/serverless": "^1.0.2",
+    "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "D": "^1.0.0",
@@ -39,7 +40,8 @@
     "helmet": "^8.1.0",
     "jsonwebtoken": "^9.0.2",
     "morgan": "^1.10.1",
-    "winston": "^3.18.3"
+    "winston": "^3.18.3",
+    "zod": "^4.1.12"
   },
   "type": "module",
   "devDependencies": {
