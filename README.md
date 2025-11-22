@@ -178,9 +178,6 @@ repository.
 4.  Run migrations\
 5.  Start dev server
 
-```{=html}
-<!-- -->
-```
     git clone <repo-url>
     npm install
     npm run db:migrate
