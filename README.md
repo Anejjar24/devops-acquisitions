@@ -142,16 +142,7 @@ Path aliases via `package.json#imports`:
 
 ------------------------------------------------------------------------
 
-## 🔐 Environment Variables
 
-  Variable         Description
-  ---------------- ---------------------------------
-  `DATABASE_URL`   Neon Postgres connection string
-  `JWT_SECRET`     Secret for JWT signing
-  `PORT`           Server port (default 3000)
-  `NODE_ENV`       dev / production
-
-------------------------------------------------------------------------
 
 ## 🐳 Docker Usage
 
@@ -162,14 +153,13 @@ Development & production-ready Dockerfiles included.
 
 ------------------------------------------------------------------------
 
-## ☸️ Kubernetes (Optional)
+## ☸️ Kubernetes 
 
 You can deploy this project to Kubernetes using: - Deployment.yaml\
 - Service.yaml\
 - ConfigMap.yaml\
 - Secret.yaml
 
-(You can add these to extend the DevOps portfolio value.)
 
 ------------------------------------------------------------------------
 
